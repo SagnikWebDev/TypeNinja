@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./css/index.css" />
+    <script src="./js/index.js" defer></script>
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <div class="logo">
+        <div class="logo_img">
+          <svg
+            viewBox="0 0 48 48"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M44 4H30.6666V17.3334H17.3334V30.6666H4V44H44V4Z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+        <h1 class="logo_text">TypeNinja</h1>
+      </div>
+    </header>
+    <main>
+      <section class="hero">
+        <h2 class="hero_title">Welcome To TypeNinja</h2>
+        <p class="hero_text">
+          Improve your typing skills with our speed test. Type the given text as
+          fast and accurately as you can.
+        </p>
+        <button class="hero_btn">Start Test</button>
+      </section>
+      <section class="test_section">
+        <div class="test">
+          <div class="records">
+            <div class="records_items WPM_container">
+              <h3>WPM</h3>
+              <p class="WPM_text">0</p>
+            </div>
+            <div class="records_items accuracy_container">
+              <h3>ACCURACY</h3>
+              <p class="accuracy_text">0%</p>
+            </div>
+            <div class="records_items time_container">
+              <h3>TIME</h3>
+              <p class="time_text">30</p>
+            </div>
+          </div>
+          <div class="test_text_container">No text here yet..</div>
+          <div class="reset_btn_container">
+            <button class="cancel_btn">give up</button>
+          </div>
+        </div>
+      </section>
+      <section class="result_wrapper">
+        <div class="result">
+          <h2>Final Result!</h2>
+          <div class="records results">
+            <div class="records_items WPM_container">
+              <h3>WPM</h3>
+              <p class="WPM_text result_WPM_text">0</p>
+            </div>
+            <div class="records_items accuracy_container">
+              <h3>ACCURACY</h3>
+              <p class="accuracy_text result_accuracy_text">0%</p>
+            </div>
+            <div class="records_items time_container">
+              <h3>TIME</h3>
+              <p class="time_text result_time_text">60</p>
+            </div>
+          </div>
+          <button class="reset">Back</button>
+        </div>
+      </section>
+    </main>
+  </body>
+</html>
